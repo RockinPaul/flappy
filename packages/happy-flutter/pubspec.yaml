@@ -1,0 +1,117 @@
+name: happy_flutter
+description: "Happy Coder - Remote control for Claude Code AI sessions"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^15.0.0
+
+  # State Management
+  flutter_riverpod: ^2.6.0
+  riverpod_annotation: ^2.6.0
+
+  # Networking
+  dio: ^5.7.0
+  socket_io_client: ^3.0.0
+  web_socket_channel: ^3.0.0
+
+  # Encryption
+  pinenacl: ^0.6.0
+  pointycastle: ^3.9.0
+  cryptography: ^2.7.0
+
+  # Storage
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.2.0
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_markdown: ^0.7.0
+  flutter_highlight: ^0.7.0
+  cached_network_image: ^3.4.0
+  lottie: ^3.3.0
+  flutter_svg: ^2.0.0
+  shimmer: ^3.0.0
+  qr_flutter: ^4.1.0
+
+  # Camera / QR Scanning
+  mobile_scanner: ^6.0.0
+
+  # Voice / Audio
+  livekit_client: ^2.3.0
+  just_audio: ^0.9.0
+  record: ^5.1.0
+
+  # In-App Purchases
+  purchases_flutter: ^8.0.0
+
+  # Analytics
+  posthog_flutter: ^4.7.0
+
+  # Push Notifications
+  firebase_messaging: ^15.1.0
+  flutter_local_notifications: ^18.0.0
+
+  # Utilities
+  url_launcher: ^6.3.0
+  share_plus: ^10.1.0
+  path_provider: ^2.1.0
+  intl: ^0.20.2
+  easy_localization: ^3.0.0
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.0
+  uuid: ^4.5.0
+  collection: ^1.18.0
+  equatable: ^2.0.7
+  logger: ^2.5.0
+  haptic_feedback: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.0
+  freezed: ^2.5.0
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.6.0
+  mockito: ^5.4.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/i18n/
+
+  # Fonts — add actual .ttf files to fonts/ before uncommenting
+  # fonts:
+  #   - family: IBMPlexSans
+  #     fonts:
+  #       - asset: fonts/IBMPlexSans-Regular.ttf
+  #       - asset: fonts/IBMPlexSans-Italic.ttf
+  #         style: italic
+  #       - asset: fonts/IBMPlexSans-SemiBold.ttf
+  #         weight: 600
+  #   - family: IBMPlexMono
+  #     fonts:
+  #       - asset: fonts/IBMPlexMono-Regular.ttf
+  #       - asset: fonts/IBMPlexMono-Italic.ttf
+  #         style: italic
+  #       - asset: fonts/IBMPlexMono-SemiBold.ttf
+  #         weight: 600
+  #   - family: BricolageGrotesque
+  #     fonts:
+  #       - asset: fonts/BricolageGrotesque-Bold.ttf
+  #         weight: 700

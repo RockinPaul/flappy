@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Happy Coder"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "error": "Error",
+    "loading": "Loading...",
+    "retry": "Try Again",
+    "save": "Save",
+    "delete": "Delete",
+    "done": "Done",
+    "back": "Back",
+    "next": "Next",
+    "settings": "Settings",
+    "search": "Search"
+  },
+  "auth": {
+    "scanQrCode": "Scan QR Code",
+    "restoreWithSecretKey": "Restore with Secret Key",
+    "enterSecretKey": "Enter your secret key"
+  },
+  "home": {
+    "title": "Sessions",
+    "noSessions": "No sessions yet",
+    "newSession": "New Session"
+  },
+  "session": {
+    "messagePlaceholder": "Message...",
+    "info": "Session Info",
+    "files": "Files"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "appearance": "Appearance",
+    "language": "Language",
+    "voice": "Voice",
+    "features": "Features",
+    "usage": "Usage",
+    "changelog": "Changelog"
+  },
+  "nav": {
+    "home": "Home",
+    "inbox": "Inbox",
+    "friends": "Friends",
+    "settings": "Settings"
+  }
+}

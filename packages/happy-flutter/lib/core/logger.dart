@@ -1,0 +1,11 @@
+import 'package:logger/logger.dart';
+
+/// Global logger instance.
+final log = Logger(
+  printer: PrettyPrinter(
+    methodCount: 0,
+    errorMethodCount: 5,
+    lineLength: 80,
+    noBoxingByDefault: true,
+  ),
+);
